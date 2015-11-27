@@ -122,6 +122,14 @@ namespace smallphyzc
 			x*v.y-y*v.x);
 		}
 
+
+	    //Updates this vector to be the vector product of its current
+		//value and the given vector.
+		
+		void operator %=(const Vector3 &v)
+		{
+			*this = vectorProduct(v);
+		}
 	};
 
 
