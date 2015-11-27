@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{0fc00004-5a83-4dc0-92aa-668cbfbc8992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\smallPhyszc">
+      <UniqueIdentifier>{a962b303-b462-4db0-a209-029d3096f0ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\smallPhyszc\precision.h">
+      <Filter>include\smallPhyszc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smallPhyszc\spMath.h">
+      <Filter>include\smallPhyszc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
