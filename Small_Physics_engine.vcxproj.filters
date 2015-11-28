@@ -7,6 +7,9 @@
     <Filter Include="include\smallPhyszc">
       <UniqueIdentifier>{a962b303-b462-4db0-a209-029d3096f0ec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{243ff88b-e049-468e-8c36-d58657902143}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\smallPhyszc\precision.h">
@@ -15,5 +18,13 @@
     <ClInclude Include="include\smallPhyszc\spMath.h">
       <Filter>include\smallPhyszc</Filter>
     </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>include\smallPhyszc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="particle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

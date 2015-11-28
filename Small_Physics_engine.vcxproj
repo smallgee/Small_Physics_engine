@@ -13,6 +13,10 @@
   <ItemGroup>
     <ClInclude Include="include\smallPhyszc\precision.h" />
     <ClInclude Include="include\smallPhyszc\spMath.h" />
+    <ClInclude Include="particle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="particle.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6BF73B6F-5C23-4EAD-A26D-A0908DCF6FE5}</ProjectGuid>

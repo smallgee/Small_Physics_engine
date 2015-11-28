@@ -125,10 +125,19 @@ namespace smallphyzc
 
 	    //Updates this vector to be the vector product of its current
 		//value and the given vector.
-		
 		void operator %=(const Vector3 &v)
 		{
 			*this = vectorProduct(v);
+		}
+
+		//Calculates and returns the vector product of this vector
+		//with the given vector.
+		
+		Vector3 operator%(const Vector3 &v) const
+		{
+		return Vector3(y*v.z-z*v.y,
+		z*v.x-x*v.z,
+		x*v.y-y*v.x);
 		}
 	};
 

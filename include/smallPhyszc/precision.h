@@ -2,7 +2,7 @@
 
 //define the precision of the square root operator
 #define real_sqrt sqrtf
-
+#define real_pow powf
 namespace smallphyzc
 {
 	/* the reason for defining the [float real] here is if you ever choose to compile for
