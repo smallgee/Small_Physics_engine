@@ -2,6 +2,7 @@
 
 //define the precision of the square root operator
 #define real_sqrt sqrtf
+//define the precision of the power operator
 #define real_pow powf
 namespace smallphyzc
 {
