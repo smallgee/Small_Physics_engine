@@ -1,6 +1,7 @@
 #include <assert.h>
-#include "particle.h"
-#include "precision.h"
+#include "smallPhyszc\precision.h"
+#include "smallPhyszc\spMath.h"
+#include "smallPhyszc\particle.h"
 
 using namespace smallphyzc;
 
@@ -30,5 +31,3 @@ void particle::addForce(Vector3 &force)
 {
 	forceAccum +=force;
 }
-
-

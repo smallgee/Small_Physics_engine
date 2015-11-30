@@ -18,12 +18,15 @@
     <ClInclude Include="include\smallPhyszc\spMath.h">
       <Filter>include\smallPhyszc</Filter>
     </ClInclude>
-    <ClInclude Include="particle.h">
+    <ClInclude Include="include\smallPhyszc\particleForceGen.h">
+      <Filter>include\smallPhyszc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\smallPhyszc\particle.h">
       <Filter>include\smallPhyszc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="particle.cpp">
+    <ClCompile Include="src\particle.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
