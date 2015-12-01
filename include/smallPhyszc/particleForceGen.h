@@ -40,7 +40,7 @@ namespace smallphyzc
 		void clear();
 
 		//calls all force generators to update the forces of their particle;
-		void updateForces(real duration)
+		void updateForces(real duration);
 	};
 
 

@@ -20,6 +20,9 @@
     <ClCompile Include="src\particle.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\Users\Geu Lueth\Documents\Visual Studio 2010\Projects\Small_Physics_engine\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="src\particleForceGen.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\Users\Geu Lueth\Documents\Visual Studio 2010\Projects\Small_Physics_engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6BF73B6F-5C23-4EAD-A26D-A0908DCF6FE5}</ProjectGuid>
