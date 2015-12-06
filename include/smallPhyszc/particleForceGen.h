@@ -1,5 +1,6 @@
 #include "particle.h"
 #include "precision.h"
+#include "spMath.h"
 
 //force generator for adding force to particls
 class particleForceGenerator
@@ -43,6 +44,39 @@ namespace smallphyzc
 		void updateForces(real duration);
 	};
 
+	class particleGravity : public particleForceGenerator
+	{
+	  //force gen that applies gravitational force to a particle
+	  //multiple particles can use one instance of this force gen.
+	
+		Vector3 gravity;
+
+	public:
+
+		//create the gen with the given velocity
+		particleGravity(const Vector3 &gravity);
+
+		//apply the gravity to the given particle
+		virtual void updateForces(particle *particle, real duration);
+		
+	};
+
+	//force gen for applying drag to a particle
+	//a single instance of this force gen can be used by multiple particles
+	class particleDrag : particleForceGenerator
+	{
+	
+		//holds the velocity drag co-efficients
+		real k1;
+		real k2;
+	public:
+		//creates the drag with the folling co-efficients
+		particleDrag(real k1,real k2);
+
+		//apply the drags to the given paricles
+		virtual void updateForces(particle *particle , real duration);
+
+	};
 
 
 }
