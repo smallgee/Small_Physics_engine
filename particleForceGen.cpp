@@ -1,18 +1,20 @@
 #include <vector>
+#include "particleForceGen.h"
 
-using namespace smallphyzc:
+
+using namespace smallPhyzc;
 
 
-void ParticleForceRegistry::updateForces(real duration)
+void particleForceRegistry::updateForces(real duration)
 {
-	Registry::iterator i = registrations.begin();
+	registry::iterator i = registrations.begin();
 	for (; i != registrations.end(); i++)
 	{
 	i->fg->updateForce(i->particle, duration);
 	}
 }
 
-void particleGravity::updateForce(Particle *particle, real duration)
+void particleGravity::updateForces(particle *particle, real duration)
 {
    //check if particle has infinite mass
 	if(!particle->hasInfiniteMass())return;
@@ -22,7 +24,7 @@ void particleGravity::updateForce(Particle *particle, real duration)
 
 }
 
-void ParticleDrag::updateForce(Particle* particle, real duration)
+void particleDrag::updateForces(particle* particle, real duration)
 	{
 	Vector3 force;
 	particle->getVelocity(&force);

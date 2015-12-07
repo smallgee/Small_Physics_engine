@@ -1,7 +1,7 @@
-#include "spMath.h"
+#include "spMaths.h"
 
 
-namespace smallphyzc
+namespace smallPhyzc
 {
 	class particle
 	{

@@ -2,34 +2,34 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{0fc00004-5a83-4dc0-92aa-668cbfbc8992}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="include\smallPhyszc">
-      <UniqueIdentifier>{a962b303-b462-4db0-a209-029d3096f0ec}</UniqueIdentifier>
+      <UniqueIdentifier>{abfcc66f-9280-499a-a325-20f22a2c6467}</UniqueIdentifier>
     </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{243ff88b-e049-468e-8c36-d58657902143}</UniqueIdentifier>
+      <UniqueIdentifier>{de891483-9cd1-42f3-8f6c-996f53526b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\smallPhyzc">
+      <UniqueIdentifier>{789e669c-1fec-41d8-ab2c-301acf60da47}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\smallPhyszc\precision.h">
-      <Filter>include\smallPhyszc</Filter>
+    <ClInclude Include="spMaths.h">
+      <Filter>include\smallPhyzc</Filter>
     </ClInclude>
-    <ClInclude Include="include\smallPhyszc\spMath.h">
-      <Filter>include\smallPhyszc</Filter>
+    <ClInclude Include="precision.h">
+      <Filter>include\smallPhyzc</Filter>
     </ClInclude>
-    <ClInclude Include="include\smallPhyszc\particleForceGen.h">
-      <Filter>include\smallPhyszc</Filter>
+    <ClInclude Include="particle.h">
+      <Filter>include\smallPhyzc</Filter>
     </ClInclude>
-    <ClInclude Include="include\smallPhyszc\particle.h">
-      <Filter>include\smallPhyszc</Filter>
+    <ClInclude Include="particleForceGen.h">
+      <Filter>include\smallPhyzc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\particle.cpp">
+    <ClCompile Include="particleForceGen.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="src\particleForceGen.cpp">
+    <ClCompile Include="particle.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>

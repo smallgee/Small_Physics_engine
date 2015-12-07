@@ -1,6 +1,6 @@
 #include "particle.h"
 #include "precision.h"
-#include "spMath.h"
+#include "spMaths.h"
 
 //force generator for adding force to particls
 class particleForceGenerator
@@ -15,7 +15,7 @@ virtual void updateForce(particle *particle, real duration) = 0;
 
 #include <vector>
 
-namespace smallphyzc
+namespace smallPhyzc
 {	
 	//holds the force gen and the particles they apply to
 	class particleForceRegistry

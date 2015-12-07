@@ -4,7 +4,7 @@
 #define real_sqrt sqrtf
 //define the precision of the power operator
 #define real_pow powf
-namespace smallphyzc
+namespace smallPhyzc
 {
 	/* the reason for defining the [float real] here is if you ever choose to compile for
 	double precision floating point(say for a 64bit machine)all you have to do is change the type real here and it

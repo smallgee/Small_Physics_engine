@@ -11,18 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\smallPhyszc\particle.h" />
-    <ClInclude Include="include\smallPhyszc\particleForceGen.h" />
-    <ClInclude Include="include\smallPhyszc\precision.h" />
-    <ClInclude Include="include\smallPhyszc\spMath.h" />
+    <ClInclude Include="particle.h" />
+    <ClInclude Include="particleForceGen.h" />
+    <ClInclude Include="precision.h" />
+    <ClInclude Include="spMaths.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\particle.cpp">
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\Users\Geu Lueth\Documents\Visual Studio 2010\Projects\Small_Physics_engine\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
-    <ClCompile Include="src\particleForceGen.cpp">
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\Users\Geu Lueth\Documents\Visual Studio 2010\Projects\Small_Physics_engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ClCompile>
+    <ClCompile Include="particle.cpp" />
+    <ClCompile Include="particleForceGen.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6BF73B6F-5C23-4EAD-A26D-A0908DCF6FE5}</ProjectGuid>

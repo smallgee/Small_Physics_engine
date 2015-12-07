@@ -1,9 +1,9 @@
 #include <assert.h>
-#include "smallPhyszc\precision.h"
-#include "smallPhyszc\spMath.h"
-#include "smallPhyszc\particle.h"
+#include "precision.h"
+#include "spMaths.h"
+#include "particle.h"
 
-using namespace smallphyzc;
+using namespace smallPhyzc;
 
 void particle::intergrate(real duration)
 {

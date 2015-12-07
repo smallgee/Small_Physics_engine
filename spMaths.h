@@ -1,7 +1,7 @@
-a#include "precision.h"
+#include "precision.h"
 
 
-namespace smallphyzc
+namespace smallPhyzc
 {
 	class Vector3
 	{
