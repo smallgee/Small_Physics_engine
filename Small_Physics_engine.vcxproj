@@ -13,12 +13,14 @@
   <ItemGroup>
     <ClInclude Include="particle.h" />
     <ClInclude Include="particleForceGen.h" />
+    <ClInclude Include="pcontacts.h" />
     <ClInclude Include="precision.h" />
     <ClInclude Include="spMaths.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="particle.cpp" />
     <ClCompile Include="particleForceGen.cpp" />
+    <ClCompile Include="pcontacts.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6BF73B6F-5C23-4EAD-A26D-A0908DCF6FE5}</ProjectGuid>

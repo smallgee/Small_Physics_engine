@@ -24,12 +24,18 @@
     <ClInclude Include="particleForceGen.h">
       <Filter>include\smallPhyzc</Filter>
     </ClInclude>
+    <ClInclude Include="pcontacts.h">
+      <Filter>include\smallPhyzc</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="particleForceGen.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="particle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pcontacts.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
